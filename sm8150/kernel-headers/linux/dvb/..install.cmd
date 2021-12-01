@@ -1,0 +1,1 @@
+cmd_usr/include/linux/dvb/.install := /bin/bash ../scripts/headers_install.sh ./usr/include/linux/dvb ../include/uapi/linux/dvb audio.h ca.h dmx.h frontend.h net.h osd.h version.h video.h; /bin/bash ../scripts/headers_install.sh ./usr/include/linux/dvb ./include/generated/uapi/linux/dvb ; touch usr/include/linux/dvb/.install
