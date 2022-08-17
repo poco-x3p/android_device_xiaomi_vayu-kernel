@@ -1,0 +1,1 @@
+cmd_usr/include/xen/.install := /bin/bash /home/raghav/aospa/kernel/xiaomi/vayu/scripts/headers_install.sh ./usr/include/xen /home/raghav/aospa/kernel/xiaomi/vayu/include/uapi/xen evtchn.h gntalloc.h gntdev.h privcmd.h; /bin/bash /home/raghav/aospa/kernel/xiaomi/vayu/scripts/headers_install.sh ./usr/include/xen ./include/generated/uapi/xen ; touch usr/include/xen/.install

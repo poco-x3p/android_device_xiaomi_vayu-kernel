@@ -1,0 +1,1 @@
+cmd_usr/include/linux/spi/.install := /bin/bash /home/raghav/aospa/kernel/xiaomi/vayu/scripts/headers_install.sh ./usr/include/linux/spi /home/raghav/aospa/kernel/xiaomi/vayu/include/uapi/linux/spi spidev.h; /bin/bash /home/raghav/aospa/kernel/xiaomi/vayu/scripts/headers_install.sh ./usr/include/linux/spi ./include/generated/uapi/linux/spi ; touch usr/include/linux/spi/.install
